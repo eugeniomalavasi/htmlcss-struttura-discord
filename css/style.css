@@ -145,14 +145,25 @@ height: 500px;
 }
 
 .footer_container {
-    background-color: blue;
-    border-top: 2px solid white;
+    background-color: #23272A;
+    border-top: 1px solid white;
     border-bottom: 2px solid white;
+    display: flex;
+    height: 115px;
 
 }
 
 .main_footer {
-    height: 95px;
- 
-
+    background-color: aqua;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.foot_box {
+    background-color: lightsalmon;
+    padding: 5px;
+    border: 1px dashed black;
+}
+
