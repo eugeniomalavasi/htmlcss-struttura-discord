@@ -84,8 +84,14 @@ height: 500px;
     display: flex;
 }
 
+.two_clm_reverse {
+    height: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .main_chunk {
-    flex-grow: 1;
+    flex-grow: 2;
     /* debug */
     background-color: lightgreen;
 }
