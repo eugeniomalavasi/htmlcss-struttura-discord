@@ -8,11 +8,15 @@
 /* COMMON */
 .center {
     margin: auto;
-    width: 80%;
+    width: 60%;
 }
 
 .dotted {
     border: 2px dashed black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* TEXT ALIGN CLASS */
@@ -43,7 +47,7 @@
 }
 
 .nav_list>li {
-    padding: 5px; 
+    padding: 5px;
 }
 
 .big {
@@ -53,3 +57,45 @@
     flex-grow: 1;
 }
 
+/* HERO IMG */
+.hero_img_container {
+display: flex;
+    /* debug */
+background-color: blue;
+height: 500px;
+}
+
+.hero_image {
+    width: 40%;
+    height: 80%;
+    background-color: lightpink;
+}
+
+/* TWO COLUMN PART */
+
+.two_clmn_container {
+    display: flex;
+    /* debug */
+    height: 600px;
+}
+
+.two_clm {
+    height: 70%;
+    display: flex;
+}
+
+.main_chunk {
+    flex-grow: 1;
+    /* debug */
+    background-color: lightgreen;
+}
+
+.secondary_chunk {
+    flex-grow: 4;
+    /* debug */
+    background-color: lightsalmon;
+}
+
+.gray_bkg {
+    background-color: lightgray;
+}
