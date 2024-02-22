@@ -4,3 +4,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.center {
+    margin: auto;
+    width: 80%;
+}
+
+.dotted {
+    border: 2px dashed black;
+}
+
+/* TEXT ALIGN CLASS */
+.text_align_left{
+    text-align: left;
+}
+.text_align_right {
+    text-align: right;
+}
+.text_align_center {
+    text-align: center;
+}
+/* HEADER */
+.main_header {
+    height: 80px;
+    display: flex;
+    /* debug */
+    background-color: aqua;
+}
+/* NAV BAR */
+.nav_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-between;
+     /* debug */
+     background-color: orange;
+}
+
+.nav_list>li {
+    padding: 5px; 
+}
+
+.big {
+    flex-grow: 3;
+}
+.small {
+    flex-grow: 1;
+}
+
