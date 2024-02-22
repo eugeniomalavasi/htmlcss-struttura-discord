@@ -119,3 +119,27 @@ height: 500px;
 }
 
 /* FOOTER */
+.five_row_container {
+    background-color: #23272A;
+    height: 500px;
+    padding: 10px 0 20px 0;
+}
+
+.five_row {
+    
+    /* debug */
+    height: 100%;
+    display: flex;
+}
+
+.box_big {
+    flex-grow: 2;
+    background-color: orange;
+    border: 2px dotted white;
+}
+
+.box_small {
+    flex-grow: 1;
+    background-color: aqua;
+    border: 2px dotted black;
+}
