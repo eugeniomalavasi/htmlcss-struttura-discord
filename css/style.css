@@ -143,3 +143,16 @@ height: 500px;
     background-color: aqua;
     border: 2px dotted black;
 }
+
+.footer_container {
+    background-color: blue;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+.main_footer {
+    height: 95px;
+ 
+
+}
